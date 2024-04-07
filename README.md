@@ -1,21 +1,29 @@
-## Descrição do Projeto
-Este projeto consiste em uma simulação de um sistema bancário simples, onde os usuários podem autenticar-se, selecionar entre uma conta corrente ou universitária, e realizar operações como saque, depósito e consulta de saldo.
+# Banco Virtual
 
-## Instruções de Instalação
-1. Clone ou baixe o repositório para o seu computador.
-2. Certifique-se de que você tem o Python instalado no seu sistema.
-3. Abra o terminal ou prompt de comando e navegue até o diretório onde os arquivos do projeto estão localizados.
-4. Execute o arquivo `banco.py` com o Python para iniciar a simulação.
+Este é um simples sistema de banco virtual desenvolvido em Python, permitindo que os usuários acessem suas contas corrente ou universitária para realizar operações como saque, verificação de saldo e depósito. 
 
-```sh
-python banco.py
-```
+## Funcionalidades
 
-## Uso
-Ao executar o arquivo `banco.py`, você será guiado através do sistema bancário simulado. Você será solicitado a fornecer informações como seu nome completo e CPF para autenticação. Em seguida, poderá selecionar entre uma conta corrente ou universitária e realizar operações como saque, depósito e consulta de saldo.
+O sistema oferece as seguintes funcionalidades:
 
-## Contribuição
-Se você deseja contribuir para este projeto, sinta-se à vontade para enviar pull requests. Certifique-se de seguir as diretrizes de contribuição.
+- Autenticação do usuário por nome completo e CPF.
+- Escolha entre conta corrente ou conta universitária.
+- Operações disponíveis:
+  - Saque
+  - Verificação de saldo
+  - Depósito
 
-## Licença
-Este projeto é distribuído sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para obter mais informações.
+## Como usar
+
+1. Execute o código Python.
+2. Siga as instruções apresentadas no console para autenticar-se e selecionar o tipo de conta desejado.
+3. Escolha a operação desejada (saque, verificação de saldo ou depósito) e siga as instruções apresentadas no console.
+
+## Notas
+
+- A conta corrente possui a opção de verificar o saldo disponível, enquanto a conta universitária não.
+- Em caso de saldo insuficiente para saque, o sistema oferece a opção de consulta ao limite de cheque especial (para a conta corrente).
+- O limite de cheque especial é calculado com base no salário mensal do usuário (20% do salário).
+- A conta universitária não tem opção de limite de cheque especial.
+
+Divirta-se bancando virtualmente!
