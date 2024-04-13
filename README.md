@@ -1,31 +1,22 @@
-# Banco Virtual
+# 🏧 Caixa Eletrônico  💵
 
-Este é um simples sistema de banco virtual desenvolvido em Python, permitindo que os usuários acessem suas contas corrente ou universitária para realizar operações como saque, verificação de saldo e depósito. 
+Este é um programa simples de caixa eletrônico implementado em Python. Ele permite que os usuários realizem operações básicas de conta bancária, como saque, depósito, consulta de saldo e exibição de extrato.
 
-## Funcionalidades
+## Funcionalidades ⚙️
 
-O sistema oferece as seguintes funcionalidades:
+O programa possui as seguintes funcionalidades:
 
-- Autenticação do usuário por nome completo e CPF.
-- Escolha entre conta corrente ou conta universitária.
-- Operações disponíveis:
-  - Saque
-  - Verificação de saldo
-  - Depósito
+- **Autenticação:** O usuário é solicitado a inserir seu nome completo e CPF para autenticação.
+- **Seleção de Conta:** O usuário pode escolher entre conta corrente e conta universitária.
+- **Operações Bancárias:**
+  - **Saque:** O usuário pode sacar dinheiro de sua conta.
+  - **Consulta de Saldo:** O usuário pode verificar o saldo disponível em sua conta.
+  - **Depósito:** O usuário pode depositar dinheiro em sua conta.
+  - **Exibição de Extrato:** O usuário pode ver o extrato de sua conta, mostrando as transações realizadas.
 
-## Como usar
+## Utilização  💻
 
-1. Execute o código Python.
-2. Siga as instruções apresentadas no console para autenticar-se e selecionar o tipo de conta desejado.
-3. Escolha a operação desejada (saque, verificação de saldo ou depósito) e siga as instruções apresentadas no console.
+Para utilizar o programa, siga estas etapas:
 
-## Notas
-
-- A conta corrente possui a opção de verificar o saldo disponível, enquanto a conta universitária não.
-- Em caso de saldo insuficiente para saque, o sistema oferece a opção de consulta ao limite de cheque especial (para a conta corrente).
-- O limite de cheque especial é calculado com base no salário mensal do usuário (20% do salário).
-- A conta universitária não tem opção de limite de cheque especial.
-
-Divirta-se bancando virtualmente!
-
-
+1. Execute o script Python em um ambiente compatível.
+2. Siga as instruções para autenticar-se, selecionar o tipo de conta e realizar as operações desejadas.
