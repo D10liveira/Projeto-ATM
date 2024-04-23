@@ -1,22 +1,42 @@
-# 🏧 Caixa Eletrônico  💵
+Claro! Aqui está o README.md com emojis adicionados em todos os tópicos e títulos:
 
-Este é um programa simples de caixa eletrônico implementado em Python. Ele permite que os usuários realizem operações básicas de conta bancária, como saque, depósito, consulta de saldo e exibição de extrato.
+---
 
-## Funcionalidades ⚙️
+# 🏦 Sistema Bancário Simples
 
-O programa possui as seguintes funcionalidades:
+Este é um sistema bancário simples desenvolvido em Python. Ele permite a realização de operações bancárias básicas, como depósito, saque, exibição de extrato, criação de novos usuários e contas.
 
-- **Autenticação:** O usuário é solicitado a inserir seu nome completo e CPF para autenticação.
-- **Seleção de Conta:** O usuário pode escolher entre conta corrente e conta universitária.
-- **Operações Bancárias:**
-  - **Saque:** O usuário pode sacar dinheiro de sua conta.
-  - **Consulta de Saldo:** O usuário pode verificar o saldo disponível em sua conta.
-  - **Depósito:** O usuário pode depositar dinheiro em sua conta.
-  - **Exibição de Extrato:** O usuário pode ver o extrato de sua conta, mostrando as transações realizadas.
+## Funcionalidades Principais
 
-## Utilização  💻
+1. **Depósito** 💰: Permite que um cliente faça um depósito em sua conta bancária.
+2. **Saque** 💸: Permite que um cliente faça um saque de sua conta bancária, respeitando os limites de saldo e número de saques.
+3. **Extrato** 📜: Exibe o extrato da conta bancária do cliente, mostrando todas as transações realizadas e o saldo atual.
+4. **Novo Usuário** 🆕: Permite a criação de um novo usuário/cliente do banco.
+5. **Nova Conta** 🆔: Permite a criação de uma nova conta bancária para um cliente existente.
+6. **Listar Contas** 📋: Lista todas as contas bancárias existentes no sistema.
 
-Para utilizar o programa, siga estas etapas:
+## Instruções de Uso
 
-1. Execute o script Python em um ambiente compatível.
-2. Siga as instruções para autenticar-se, selecionar o tipo de conta e realizar as operações desejadas.
+Ao executar o programa, você será apresentado a um menu com as opções numeradas. Basta selecionar a opção desejada digitando o número correspondente e pressionando Enter. Você será guiado através das etapas necessárias para realizar a operação escolhida.
+
+### Requisitos
+
+- Python 3.x instalado no sistema.
+
+## Como Executar
+
+1. Baixe ou clone o repositório em seu computador.
+2. Abra o terminal ou prompt de comando e navegue até o diretório onde os arquivos foram baixados.
+3. Execute o arquivo `main.py` digitando `python main.py` e pressionando Enter.
+4. Siga as instruções no terminal para utilizar o sistema bancário.
+
+### Autor
+
+Este sistema foi desenvolvido por Dieimisson Oliveira sob a mentoria da DIO.me.
+
+### Avisos
+
+- Este sistema é apenas uma demonstração simplificada e não deve ser usado em ambientes de produção.
+- Este sistema não possui autenticação ou medidas de segurança avançadas, portanto, não o utilize com dados sensíveis ou reais.
+
+---
