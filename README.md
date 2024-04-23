@@ -1,7 +1,3 @@
-Claro! Aqui está o README.md com emojis adicionados em todos os tópicos e títulos:
-
----
-
 # 🏦 Sistema Bancário Simples
 
 Este é um sistema bancário simples desenvolvido em Python. Ele permite a realização de operações bancárias básicas, como depósito, saque, exibição de extrato, criação de novos usuários e contas.
@@ -27,7 +23,7 @@ Ao executar o programa, você será apresentado a um menu com as opções numera
 
 1. Baixe ou clone o repositório em seu computador.
 2. Abra o terminal ou prompt de comando e navegue até o diretório onde os arquivos foram baixados.
-3. Execute o arquivo `main.py` digitando `python main.py` e pressionando Enter.
+3. Execute o arquivo `Projeto_ATM.py` digitando `python Projeto_ATM.py` e pressionando Enter.
 4. Siga as instruções no terminal para utilizar o sistema bancário.
 
 ### Autor
